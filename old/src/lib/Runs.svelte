@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { runs } from "../stores/reuse-prompt";
+  import { runs } from "../store";
   import type { Run } from "../types";
   import RunItem from "./RunItem.svelte";
 

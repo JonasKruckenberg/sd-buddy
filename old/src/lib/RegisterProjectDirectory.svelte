@@ -2,7 +2,7 @@
   import { open as openDialog } from "@tauri-apps/api/dialog";
   import { appDir } from "@tauri-apps/api/path";
   import { open } from "@tauri-apps/api/shell";
-  import { stableDiffusionDirectory } from '../stores/settings'
+  import { stableDiffusionDirectory } from "../store";
 
   let stableDiffusionDirectoryInput: HTMLInputElement;
 

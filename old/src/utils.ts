@@ -1,4 +1,4 @@
-import { copying } from "./stores/copying";
+import { copying } from "./store";
 
 export async function copyToClipboard(text: string) {
   if (!navigator.clipboard) {

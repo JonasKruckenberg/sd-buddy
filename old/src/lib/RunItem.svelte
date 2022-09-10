@@ -1,8 +1,7 @@
 <script lang="ts">
   import { convertFileSrc } from "@tauri-apps/api/tauri";
   import { open } from "@tauri-apps/api/shell";
-  import { reusePrompt } from "../stores/reuse-prompt";
-  import { stableDiffusionDirectory } from '../stores/settings'
+  import { reusePrompt, stableDiffusionDirectory } from "../store";
   import { createEventDispatcher, onMount, beforeUpdate } from "svelte";
   import type { Run } from "../types";
 
